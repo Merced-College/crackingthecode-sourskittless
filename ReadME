@@ -1,0 +1,35 @@
+Santiago Jimenez and Genisa Salinas
+
+Challenge 1 Questions:
+1. Our program works by using a brute force method. It loops through the numbers 0-9999 
+in order until it guesses the randomly generated password.
+
+2. Althought we did not implement this in our code, the fastest way to crack the password is likely by using
+a more efficient search algorithm like binary search, rather than brute force.
+
+
+Challenge 2 Questions:
+3. It takes longer to crack the password becasue it has to iterate through more numbers.
+
+4.Some strageties people may use to protect there pin numbers are not having common pins
+such as birthdays or generic passwords like '123' or '6767'. People may also change their
+pins frequently to mitigate hacks.
+
+Challenge 3 Questions:
+5. We had to use a nested loop instead of a simple one because of the letters we had to 
+include. Also we had to make a string to inlude all possible numbers and letters specified. 
+
+6. It did increase the difficulty of cracking the password. We had to iterate through a
+longer string. This made more possible combinations and we had to limit the random password 
+because the computer froze since it had so many possibilities at first.
+
+7. Similar to how the computer froze in question 6, the more characters you have the more combinations you 
+have to check. This can make it take a very long time to crack the password or even freeze
+your computer.
+
+Final Challenge Questions:
+8. Long passwords are the hardest to crack because they take the longest to iterate through. There
+are too many combinations.
+
+9. Companies can prevent brute force attacks by limiting the number of attempts users can make when entering 
+password. They can also require two factor authentication.
